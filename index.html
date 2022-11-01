@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">
+        <small><small>
+                Primeiros passos com HTML
+                <sup><a href="#ref01"><small>1</small></a></sup>
+            </small></small>
+        <br>
+        Aprendendo HTML na prática
+    </h1>
+    <hr>
+
+    <h2>Atenção!</h2>
+    <p>
+        Este documento não contém a representação completa do curso sugerida pelo autor original do curso. Mas sim o <u>exemplo de uso</u> do que foi entendido no curso. Como o desafio propõe em seu enunciado:
+    </p>
+    <blockquote cite="https://web.dio.me/lab/criar-uma-pagina-web-utilizando-as-tags-aprendidas/learning/fc56c26e-95a4-419d-a5bf-48826e676952">
+        <p>
+            <i>
+                A ideia deste Desafio de Projeto é elaborar um website, utilizando uma <font color="crimson" size="4">estrutura bem básica</font>, utilizando tags aprendidas durante as aulas práticas:
+            </i>
+        </p>
+        <ul>
+            <li>
+                <i>
+                    Utilizar todas as tags explicadas nas aulas: &lt;h1&gt; até &lt;h6&gt;, &lt;p&gt;, &lt;mark&gt;, &lt;small&gt;, &lt;i&gt;, &lt;u&gt;, &lt;strong&gt;, &lt;ol&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;a&gt;, &lt;hr&gt;, &lt;sub&gt;, &lt;sup&gt;, &lt;blockquote&gt;;
+                </i>
+            </li>
+            <li>
+                <i>
+                    Utilizar novas tags <strong>sugeridas</strong>: <del>&lt;font&gt;</del>, &lt;del&gt;, <del>&lt;p&gt;</del>, &lt;abbr&gt; (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
+                </i>
+            </li>
+        </ul>
+    </blockquote>
+    <p>
+        Assim, até esta linha o foram usadas as seguintes tags <abbr title="HyperText Markup Language">HTML</abbr>:
+    </p>
+    <ul>
+        <li>
+            &lt;H1&gt; e &lt;H2&gt; para os títulos,
+        </li>
+        <li>
+            &lt;SMALL&gt; e &lt;SUP&gt; para o link "1" para o item 1 em "Referências".
+        </li>
+        <li>
+            &lt;U&gt; para sublinhar o texto "exemplo de uso".
+        </li>
+        <li>
+            &lt;HR&gt; para a linha divsória abaixo do título principal.
+        </li>
+        <li>
+            &lt;BLOCKQUOTE&gt; para apresentar a citação de um texto extraído de outro documento. Inclusive o atributo <strong>cite</strong> contém a URL da página <strong>"Entendendo o Desafio"</strong> dentro da DIO e pode não estar mais accessível.
+        </li>
+        <li>
+            &lt;P&gt; para marcar os parágrafos.
+        </li>
+        <li>
+            &lt;I&gt; para marcar o texto da citação com o estilo itálico.
+        </li>
+        <li>
+            &lt;STRONG&gt; para dar enfase e peso do tipo "negrito".
+        </li>
+        <li>
+            &lt;UL&gt; e &lt;LI&gt; para lista de 2 itens na citação.
+        </li>
+        <li>
+            &lt;DEL&gt; para marcar a exclusão da ocorrência redundante do texto da tag <b>P</b>. Mas também para a exclusão da tag <b>FONT</b>, pois esta tag foi <font color="crimson">descontinuada</font> e seu uso não é mais recomendado. A <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font" target="_blank">referência para a tag <b>FONT</b> no site MDM</a> avisa que a funcionalide desta tag pode cessar a qualquer momento.
+        </li>
+        <li>
+            &lt;FONT&gt; para colorir algums textos com a cor <i>"Crimson"</i> e alterar o tamanho do tipo, mas esta apresentação poderá não funcionar em seu navegador, pelo motivo citado no item anterior. Estilizar ou descrever a apresentação de texto é tarefa do código em <abbr title="Cascading Style Sheets ou Folhas de Estilo em Cascata">CSS</abbr>.
+        </li>
+        <li>
+            &lt;A&gt; para criar as ligações com outras páginas externas e a ligação do minúsculo "1" no primeiro título com o item "1" nas "Referências" no final deste documento.
+        </li>
+        <li>
+            A tag &lt;ABBR&gt; foi usada para marcar a abreviação da palavra "HTML" no parágrafo acima desta lista e em algumas ocorrências do nome do navegador e do editor no resto do documento.
+            Porém, no parágrafo acima, a palávra "HTML" contém o atributo <b>title</b> com valor do nome expandido à qual refere-se esta abreviação.
+            Se você estiver usando um mouse ou outro dispositivo apontador de tela, o nome expandido da abreviação aparecerá ao passar o cursor sobre a abreviação "HTML".
+        </li>
+    </ul>
+    <p>
+        Com a tag &lt;SUB&gt;, posso marcar o número 2 no texto que representa uma molécula de água, ou seja, <strong>H<sub>2</sub>O</strong>.
+    </p>
+    <p>
+        Já o texto <a href="outra-pagina.html">"CLIQUE AQUI PARA IR PARA OUTRA PÁGINA"</a> é marcado com a tag <b> &lt;A&gt;</b> e carregará o conteúdo do arquivo <code>outra-pagina.html</code> nesta guia do navegador se for clicado.
+    </p>
+
+
+
+    <p>
+        E por último, o conteúdo a seguir é um rascunho de como seria este curso descrito em uma página e exemplo de uso das tags de título restantes (&lt;H3&gt;, &lt;H4&gt;, &lt;H5&gt; e &lt;H6&gt;). Os links "Voltar ao início" são o último requisito do desafio.
+    </p>
+
+
+    <hr>
+    <h2>
+        Apresentação do Curso
+    </h2>
+    <p>
+        Este curso é basicamente uma introdução à programação para Web, iniciando no uso da linguagem HTML. O percurso
+        vai desde como instalar e configurar o ambiente de desenvolvimento, até a criação de um conjunto de páginas em
+        HTML que formarão um pequeno site.
+    </p>
+    <h3>
+        Tópicos abordados neste curso
+    </h3>
+
+    <ul>
+        <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+        <li><a href="#inspetor">Usando o Inspetor de Elementos</a></li>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Falando sobre Tags</a></li>
+        <li><a href="#atributos">Atributos básicos</a></li>
+        <li><a href="#executando-html">Executando uma páginaHTML</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+
+    <p>
+        <a href="#referencias">Referências</a>
+    </p>
+
+    <hr>
+    <h2 id="ferramentas">
+        Ferramentas utilizadas
+    </h2>
+    <p>
+        Vamos preparar o ambient para iniciar o desenvolvimento de um site pequeno.
+    </p>
+
+    <h3>Navegador de Internet</h3>
+    <p>
+        Para isto a primeira ferramenta é o <strong>Navegador Google Chrome</strong>, que chamaremos de
+        <strong><abbr>Chrome</abbr></strong> a
+        partir de agora. Este navegador pode ser instalado ao seguir as instruções deste endereço: <a href="https://www.google.com/intl/pt-BR/chrome/" target="_blank" rel="noopener noreferrer">https://www.google.com/intl/pt-BR/chrome/</a>.
+    </p>
+
+    <h3>Editor de textos</h3>
+    <p>
+        O editor de texto onde será escrito o código HTML utilizado aqui é o <strong>Visual Studio Code</strong>. Este é
+        um editor gratuíto, open source, com várias funcionalides muito úteis e que pode ser executado em diversos
+        sitemas operacionais.
+    </p>
+    <p>
+        No <a href="https://code.visualstudio.com/" target="_blank">site do Visual Studio Code</a> você encontrará as
+        instruções necessárias para a instalação e uso deste editor.
+    </p>
+    <p>
+        Neste estudo, usaremos o nome reduzido do editor: <strong><abbr>VSCode</abbr></strong>.
+    </p>
+
+    <h4>Extensões do VSCode</h4>
+
+    <p>
+        O VSCode pode adquirir funcionalides extras com a instalação de <i>extensões</i>.
+        Das várias extensões disponíveis para o editor no <a href="https://marketplace.visualstudio.com/vscode" target="_blank">Marketplace do VSCode</a>, a <strong>Live Server</strong>
+        de <b>Ritwick Dey</b> será a primeira a ser instalada.
+    </p>
+    <p>
+        A extensão, <b>Live Server</b> adiciona na barra de status do editor um botão que cria um servidor HTML. O
+        servidor usa o caminho do documento HTML em edição, como ponto de partida. Uma guia do navegador de internet
+        padrão será aberta, exibindo o conteúdo do documento HTML. A cada alteração no código do documento o navegador
+        atualizará a apresentação do documento.
+    </p>
+    <p>
+        Com o VSCode instalado, execute-o e então acesse o painel de extensões.
+    </p>
+    <ol>
+        <li>
+            Vá no menu <b>View</b> ou <b>Visualizar</b> e selecione a opção <b>Extensions</b> ou <b>Extensões</b>. O
+            painel do gerenciador de extensões será aberto.
+        </li>
+        <li>
+            No topo do painel gerenciador de extensões há uma caixa de texto (ou campo de formulário) onde pode ser
+            feita a busca por texto dentro do Marketplace do VSCode. Escreva o nome da extensão ou palavras-chave
+            relativas à extensão desejada. Neste momento, escreva o seguinte texto: <kbd>live server</kbd>. E então
+            pressione <kbd>Enter</kbd> ou <kbd>Return</kbd>.
+        </li>
+        <li>
+            Na lista de resultados da busca, abaixo do campo de busca, deverão aparecer alguns resultados na forma de
+            botões que abrem uma página descrevendo o ítem.
+            Um destes itens deve descrever a extensão chamada <b>Live Server</b>, cujo o autor é <b>Ritwick Dey</b>.
+        </li>
+        <li>
+            Na página de descrição da extensão, clique no botão <b>Install</b> ou <b>Instalar</b>
+        </li>
+    </ol>
+    <p>
+        A partir daqui o conteúdo é dominado pelos textos "Lorem Ipsum".
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="inspetor">
+        Usando o Inspetor de Elementos
+    </h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h3>
+        What is Lorem Ipsum?
+    </h3>
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <h4>
+        Where does it come from?
+    </h4>
+    <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    </p>
+    <p>
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        <a href="#inicio">Voltar ao início</a>
+    </p>
+
+
+
+    <h2 id="estrutura">
+        Estrutura básica do HTML
+    </h2>
+    <p>
+        Os títulos a seguir são exemplos de uso das tags &lt;H3&gt;, &lt;H4&gt;, &lt;H5&gt; e &lt;H6&gt;.
+    </p>
+    <h3>Este é um título marcado como H3</h3>
+    <p>
+        O título a seguir usa a tag H4.
+    </p>
+    <h4>Este é um título marcado como H4</h4>
+    <p>
+        O título a seguir usa a tag H5.
+    </p>
+    <h5>Este é um título marcado como H5</h5>
+    <p>
+        O título a seguir usa a tag H6.
+    </p>
+    <h6>Este é um título marcado como H6</h6>
+    <p>
+        E segue o Lorem Ipsum...
+    </p>
+
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="tags">
+        Falando sobre Tags
+    </h2>
+    <p>
+        Mussum Ipsum<sup><a href="#ref02">2</a></sup>, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Delegadis gente finis, bibendum egestas augue arcu ut est.
+    </p>
+    <p>
+        Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. A ordem dos tratores não altera o pão duris. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="atributos">
+        Atributos básicos
+    </h2>
+    <p>
+        Mé faiz elementum girarzis, nisi eros vermeio. Pra lá, depois divoltis porris, paradis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="executando-html">
+        Executando uma páginaHTML
+    </h2>
+    <p>
+        Cevadis im ampola pa arma uma pindureta. In elementis mé pra quem é amistosis quis leo. Casamentiss faiz malandris se pirulitá. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="textos">
+        Textos
+    </h2>
+    <p>
+        Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Paisis, filhis, espiritis santis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="listas">
+        Listas ordenadas e não ordenadas
+    </h2>
+    <p>
+        A ordem dos tratores não altera o pão duris. Quem num gosta di mé, boa gentis num é. Si num tem leite então bota uma pinga aí cumpadi! Viva Forevis aptent taciti sociosqu ad litora torquent.
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+
+    <h2 id="links">
+        Links
+    </h2>
+    <p>
+        Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Si num tem leite então bota uma pinga aí cumpadi! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!
+    </p>
+    <a href="#inicio">Voltar ao início</a>
+
+
+    <hr>
+    <h2 id="referencias">Referências</h2>
+    <ol>
+        <li id="ref01">
+            Curso: Primeiros passos com HTML - Aprendendo HTML na prática.<br>
+            Author: Diogo Medeiros Mainardes <br>
+            <a href="https://www.instagram.com/diogomainardes.dev/" target="_blank">
+                @diogomainardes.dev
+            </a><br>
+            <a href="https://www.linkedin.com/in/diogomainardes/" target="_blank">
+                linkedin.com/in/diogomainardes
+            </a><br>
+            <a href="https://www.twitch.tv/dimmbr" target="_blank">
+                twitch.tv/dimmbr
+            </a>
+        </li>
+        <li id="ref02">
+            <a href="https://mussumipsum.com/" target="_blank">
+                MUSSUM IPSUM <br>
+                O melhor lorem ipsum do mundis.
+            </a>
+        </li>
+    </ol>
+    <hr>
+    <p>
+        Repositório deste código: <a href="https://github.com/iraja-baltezan/dio-wdp-221025-desafio_html" target="_blank" >https://github.com/iraja-baltezan/dio-wdp-221025-desafio_html</a>
+    </p>
+</body>
+
+</html>
